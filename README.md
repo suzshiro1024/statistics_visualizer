@@ -44,4 +44,4 @@ ImageMagickとgruffは各自インストールが必要です。
 
 # 使用例 
 
-![](C:\Users\tix13\ピクチャ\100\stats.png)
+![](https://user-images.githubusercontent.com/89633058/136235203-e7936ca2-9369-4a92-b09e-ef5888761e22.png)
