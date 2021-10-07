@@ -86,13 +86,4 @@ class BattingStats
         xr27 = xr/(@ab - @h + @cs + @sh + @dp)*27
         xr27.round(3).to_s
     end
-
-    # Fixing appearance
-    def self.appearance(number)
-        number = number.round(3).to_s.gsub(/0\./,'.')
-        if number.size != 4
-            number << '0'
-        end
-        number
-    end
 end
