@@ -21,7 +21,7 @@
 - 打率(AVG)
 - 出塁率(OBP)
 - 長打率(SLG)
-- Isolated Power(ISO)
+- GPA
 - BABIP
 - wOBA	
 
