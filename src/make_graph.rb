@@ -29,7 +29,9 @@ end
 
 graph.line_width = 3
 graph.dot_radius = 4
-data.each_with_index do |data,i|
-    graph.data :"data#{i + 1}", data
+data.each do |data|
+    name = data.delete_at 0
+    year = data.delete_at 0
+    graph.data :"#{name},#{year}", data
 end
 graph.write('../stats.png')
