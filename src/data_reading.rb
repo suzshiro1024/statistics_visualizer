@@ -33,7 +33,7 @@ def openfile (select)
                 data_array << i.average
                 data_array << i.on_base_percentage
                 data_array << i.slugging
-                data_array << i.isolated_power
+                data_array << i.gpa
                 data_array << i.babip
                 data_array << i.woba
                 array << data_array

@@ -70,6 +70,11 @@ class BattingStats
         noi.round(0).to_s
     end
 
+    # Calculate GPA
+    def gpa
+        gpa = (on_base_percentage*1.8 + slugging)/4
+    end
+
     # Calculate RC27
     def rc27
         valA = @h + @bb + @hbp - @cs - @dp
