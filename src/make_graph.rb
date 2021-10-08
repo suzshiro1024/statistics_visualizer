@@ -21,7 +21,7 @@ elsif(control == 1) # Batter Mode
         0 => 'AVG',
         1 => 'OBP',
         2 => 'SLG',
-        3 => 'ISO',
+        3 => 'GPA',
         4 => 'BABIP',
         5 => 'wOBA'
     }
@@ -34,4 +34,6 @@ data.each do |data|
     year = data.delete_at 0
     graph.data :"#{name},#{year}", data
 end
-graph.write('../stats.png')
+print("please write filename:")
+filename = gets
+graph.write("../#{filename.chomp}.png")
