@@ -25,7 +25,7 @@ class BattingStats
     end
 
     # Calculate AVG
-    def average        
+    def average
         avg = @h.to_f / @ab.to_f
     end
 

@@ -4,7 +4,7 @@ require_relative './pitching_stats.rb'
 def openfile (select)
     print("select data file:")
     filename = gets.chomp
-    
+
     i = nil
     array = []
     if(select == 0)
@@ -21,7 +21,7 @@ def openfile (select)
                 array << data_array
             end
         end
-        
+
     elsif(select == 1)
         File.open('../' + filename, "r") do |file|
             file.each_line do |data|

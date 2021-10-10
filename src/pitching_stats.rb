@@ -30,7 +30,7 @@ class PitchingStats
         end
         inning
     end
-    
+
     # Calculate ERA
     def earned_run_average
         era = 9*@er.to_f / inning
