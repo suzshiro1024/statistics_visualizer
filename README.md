@@ -1,4 +1,4 @@
-# statistics_visualizer 
+# statistics_visualizer
 
 野球の成績をグラフで可視化するツール。
 
@@ -23,7 +23,7 @@
 - 長打率(SLG)
 - GPA
 - BABIP
-- wOBA	
+- wOBA
 
 の6つの指標を計算してグラフ化する。
 
@@ -42,7 +42,7 @@
 
 ImageMagickとgruffは各自インストールが必要です。
 
-# 使用例 
+# 使用例
 - 現在の出力画像とは異なります。データラベルは**選手名+年度**が付くようになっています。
 
 ![](https://user-images.githubusercontent.com/89633058/136235203-e7936ca2-9369-4a92-b09e-ef5888761e22.png)
