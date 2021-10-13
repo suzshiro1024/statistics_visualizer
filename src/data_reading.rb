@@ -31,11 +31,12 @@ def openfile (select)
                 data_array << s[0]
                 data_array << s[1]
                 data_array << i.average
-                data_array << i.on_base_percentage
-                data_array << i.slugging
+                data_array << i.on_base_percentage / 1.31
+                data_array << i.slugging / 1.88
                 data_array << i.gpa
                 data_array << i.babip
-                data_array << i.woba
+                data_array << i.woba / 1.39
+                data_array << i.ops / 3.16
                 array << data_array
             end
         end

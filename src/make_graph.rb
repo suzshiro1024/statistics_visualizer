@@ -23,7 +23,8 @@ elsif(control == 1) # Batter Mode
         2 => 'SLG',
         3 => 'GPA',
         4 => 'BABIP',
-        5 => 'wOBA'
+        5 => 'wOBA',
+        6 => 'OPS'
     }
 end
 
